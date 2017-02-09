@@ -1,9 +1,6 @@
-%{"benchfella": {:hex, :benchfella, "0.3.2"},
-  "dialyxir": {:hex, :dialyxir, "0.3.3"},
-  "earmark": {:hex, :earmark, "0.2.1"},
-  "edown": {:git, "https://github.com/uwiger/edown.git", "d864427506cd93a00712b7c3b9a89d793e7e1600", [branch: "master"]},
-  "ex_doc": {:hex, :ex_doc, "0.11.4"},
-  "fqc": {:git, "https://github.com/project-fifo/fqc.git", "883013e96408f98b29d016fa094b8ac7410c364e", [branch: "master"]},
-  "hdr_histogram": {:git, "https://github.com/HdrHistogram/hdr_histogram_erl.git", "72f8c419181cce7492a8a8b1259c6c06db6ddb08", [tag: "0.2.6"]},
+%{"benchfella": {:hex, :benchfella, "0.3.3", "bbde48b5fe1ef556baa7ad933008e214e050e81ddb0916350715f5759fb35c0c", [:mix], []},
+  "dialyxir": {:hex, :dialyxir, "0.4.4", "e93ff4affc5f9e78b70dc7bec7b07da44ae1ed3fef38e7113568dd30ad7b01d3", [:mix], []},
+  "earmark": {:hex, :earmark, "1.1.1", "433136b7f2e99cde88b745b3a0cfc3fbc81fe58b918a09b40fce7f00db4d8187", [:mix], []},
+  "ex_doc": {:hex, :ex_doc, "0.14.5", "c0433c8117e948404d93ca69411dd575ec6be39b47802e81ca8d91017a0cf83c", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
   "hoedown": {:git, "https://github.com/hoedown/hoedown.git", "980b9c549b4348d50b683ecee6abee470b98acda", []},
-  "markdown": {:git, "https://github.com/devinus/markdown.git", "9b3beaf69a9b9c6450526c41d591a94d2eedf1e8", []}}
+  "markdown": {:git, "https://github.com/devinus/markdown.git", "38dc74c88d52fd7569ad4f63d32b344d35a7fcce", []}}
