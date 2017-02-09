@@ -39,7 +39,7 @@ defmodule Metrics.Mixfile do
   defp deps do
     [
       # Development only
-      {:markdown, github: "devinus/markdown"},
+      {:markdown, github: "devinus/markdown", only: :dev},
       {:dialyxir, "~> 0.3", only: :dev},
       {:ex_doc, "~> 0.11", only: :dev},
       {:benchfella, "~> 0.3.0", only: :dev}
